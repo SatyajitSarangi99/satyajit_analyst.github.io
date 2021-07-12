@@ -1,12 +1,16 @@
-## Welcome to GitHub Pages
+##### WELCOME
+# SATYAJIT'S PERSONAL PORTFOLIO
+##### (*Contact satyajit on 8249538484*)
+##### (*E-mail satyajit on 1808037@kiit.ac.in & sarangisatya2017@gmail.com*)
+This link will directly take you to satyajits linkedin profile [linkedin link](https://www.linkedin.com/in/satyajit-sarangi-38515a206/).
 
-You can use the [editor on GitHub](https://github.com/SatyajitSarangi99/satyajit_analyst.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+My work on Visual representation using [Tableau](https://public.tableau.com/profile/satyajit.sarangi#!/?newProfile=&activeTab=0) to communicate my findings to stakeholders.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+### SQL
+Some of my work using structured query language
 
 ```markdown
 Syntax highlighted code block
@@ -25,6 +29,28 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+
+### R-programing language
+My work using R-studio
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
