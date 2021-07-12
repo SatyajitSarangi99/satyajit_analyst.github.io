@@ -299,7 +299,7 @@ library(dplyr)
 
 ```
 
-[IMAGE](C:\Users\18080\Downloads)
+[IMAGE](https://github.com/SatyajitSarangi99/satyajit_analyst.github.io/blob/gh-pages/franki-chamaki-On78_6k2hI4-unsplash.jpg)
 
 # CONTACT DETAILS
 
@@ -307,3 +307,4 @@ library(dplyr)
 ##### (*E-mail satyajit on 1808037@kiit.ac.in  or  sarangisatya2017@gmail.com*)
 This link will directly take you to satyajits linkedin profile [linkedin link](https://www.linkedin.com/in/satyajit-sarangi-38515a206/).
 My work on Visual representation using [Tableau](https://public.tableau.com/profile/satyajit.sarangi#!/?newProfile=&activeTab=0) to communicate my findings to stakeholders.
+
