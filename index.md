@@ -36,15 +36,63 @@ My work using R-studio
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Vizualizing code using ggplot2
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## To create a visualization plot between body_mass_g & bill_depth_mm
+## by loading ggplot2 & palmerpenguins package
+
+library(ggplot2)
+library(palmerpenguins)
+data("penguins")
+View(penguins)
+
+ggplot(data= penguins) + geom_point(mapping = aes(x= bill_depth_mm , y= body_mass_g))
+
+## Plot show a positive relationhip between two points
+#___________________
+
+## adding a color for a detailed view for better understanding  of different species
+
+ggplot(data = penguins) + geom_point(mapping = aes(x=bill_depth_mm, y = body_mass_g, color= body_mass_g))
+
+## to add a color and shape for more detailed understanding of different species
+
+ggplot(data = penguins) + geom_point(mapping = aes(x=bill_depth_mm, y = body_mass_g, color= species, shape= species))
+
+## now i want to view same data using a line graph plot 
+#along with the correlation between the species
+
+ggplot(data = penguins) + 
+  geom_smooth(mapping = aes(x=bill_depth_mm, y = body_mass_g, color= species, shape= species)) +
+  geom_point(mapping = aes(x=bill_depth_mm, y = body_mass_g, color= species, shape= species))
+
+
+
+
+## now i will work using a bar graph to work with diamonds dataset
+
+ggplot(data = diamonds) + geom_bar(mapping = aes(x=cut))
+
+ggplot(data = diamonds) + geom_bar(mapping = aes(x=cut, color=cut))
+
+## to differenciate the bar chart by color 
+
+ggplot(data = diamonds) + geom_bar(mapping = aes(x=cut, fill = cut))
+
+
+## to display subset of my data and smaller group
+## to create a separate plot for each species
+
+ggplot(data = penguins)+
+  geom_point(mapping=aes(x=bill_depth_mm, y = body_mass_g))+
+  facet_wrap(~species)
+
+## to create a separate plot for each species and add a color to differenciate the plots
+
+ggplot(data=penguins, aes(x=bill_depth_mm, y= body_mass_g))+
+  geom_point(aes(color= species))+
+  facet_wrap(~species)
 
 **Bold** and _Italic_ and `Code` text
 
